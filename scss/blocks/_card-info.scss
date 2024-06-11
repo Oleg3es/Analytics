@@ -1,0 +1,34 @@
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include tablet {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    &--reverse {
+        flex-direction: row-reverse;
+
+        @include tablet {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        max-width: 480px;
+
+        &-title {
+            line-height: 46.88px;
+            color: var(--color-text-bckg);
+        }
+
+        &-description {
+            line-height: 27px;
+        }
+    }
+}

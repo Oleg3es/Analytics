@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/styles.css">
+</head>
+
+<body>
+    <div class="wrap" style="overflow-x:hidden;">
+        <div class="background-container">
+            <header class="header">
+                <div class="header__inner container">
+                    <a href="#" class="header__logo logo">
+                        <img src="./images/logo.svg" alt="ANALYTICS" class="logo__image" width="184" height="40"
+                            loading="lazy">
+                    </a>
+                    <nav class="header__menu hidden-mobile">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Products</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Pricing</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">FAQ</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Blog</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__button">
+                        <form action="#" target="_blank">
+                            <button class="header__button-signIn button button--transparent" type="button">
+                                Sign in
+                            </button>
+                        </form>
+                        <form action="#" target="_blank">
+                            <button class="header__button-signUp button button--transparent hidden-mobile"
+                                type="button">
+                                Sign Up
+                            </button>
+                        </form>
+                    </div>
+                    <button class="header__burger-button burger-button visible-mobile" type="button"
+                        onclick="mobileOverlay.showModal()">
+                        <span class="visually-hidden">Open navigation menu</span>
+                    </button>
+                </div>
+            </header>
+            <main class="content">
+                <section class="section container">
+                    <div class="section__body">
+                        <div class="hero">
+                            <div class="hero__body">
+                                <h1 class="hero__title">
+                                    Monitor your business on real-time dashboard
+                                </h1>
+                                <div class="hero__description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet
+                                        volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis
+                                        imperdiet
+                                        sed nullam. </p>
+                                </div>
+                                <button class="hero__button button" type="button">
+                                    Try for free
+                                </button>
+                            </div>
+                            <div class="hero__images">
+                                <img src="./images/main-screen.svg" alt="" class="hero__images-diagram" width="804px"
+                                    height="554px" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </div>
+        <section class="section container">
+            <div class="section__body">
+                <div class="features">
+                    <h2 class="features__title">
+                        Main Features
+                    </h2>
+                    <div class="features__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat
+                            pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
+                            Vitae
+                            et, tortor pulvinar risus pulvinar sit amet. Id vel in nam malesuada.</p>
+                    </div>
+                    <div class="features__cards">
+                        <ul class="features__cards-list">
+                            <li class="features__cards-item">
+                                <article class="feature-card">
+                                    <img src="./images/Icon.svg" alt="" class="feature-card__image">
+                                    <div class="feature-card__title">
+                                        <p>Monitoring 24/7</p>
+                                    </div>
+                                    <div class="feature-card__description">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipis
+                                            cing elit. Elementum nisi aliquet volutpat.</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="features__cards-item">
+                                <article class="feature-card">
+                                    <img src="./images/Vector.svg" alt="" class="feature-card__image">
+                                    <div class="feature-card__title">
+                                        <p>Widget System</p>
+                                    </div>
+                                    <div class="feature-card__description">
+                                        <p>Sapien in etiam vitae nibh nunc mattis imperdiet
+                                            sed nullam. Vitae et, tortor pulvinar risus pulvinar.</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="features__cards-item">
+                                <article class="feature-card">
+                                    <img src="./images/Icon (1).svg" alt="" class="feature-card__image" loading="lazy">
+                                    <div class="feature-card__title">
+                                        <p>Best Performance</p>
+                                    </div>
+                                    <div class="feature-card__description">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipis
+                                            cing elit. Elementum nisi aliquet volutpat.</p>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container">
+            <div class="section__body">
+                <div class="cards">
+                    <ul class="cards-list">
+                        <li class="cards-item">
+                            <article class="card-info">
+                                <div class="card-info__item">
+                                    <h2 class="card-info__item-title">
+                                        Automated Reports & Widget Alerts
+                                    </h2>
+                                    <div class="card-info__item-description">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi
+                                            aliquet
+                                            volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis
+                                            imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.</p>
+                                    </div>
+                                </div>
+                                <img src="./images/screen-01.svg" alt="" loading="lazy" class="card-info__item-img"
+                                    width="600px" height="410px">
+                            </article>
+                        </li>
+                        <li class="cards-item">
+                            <article class="card-info card-info--reverse">
+                                <div class="card-info__item">
+                                    <h2 class="card-info__item-title">
+                                        Fully customizable to address your needs
+                                    </h2>
+                                    <div class="card-info__item-description">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi
+                                            aliquet
+                                            volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis
+                                            imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.</p>
+                                    </div>
+                                </div>
+                                <img src="./images/screen-02.svg" alt="" loading="lazy" class="card-info__item-img"
+                                    width="600px" height="410px">
+                            </article>
+                        </li>
+                        <li class="cards-item">
+                            <article class="card-info">
+                                <div class="card-info__item">
+                                    <h2 class="card-info__item-title">
+                                        Pre-built Dashboard Templates
+                                    </h2>
+                                    <div class="card-info__item-description">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi
+                                            aliquet
+                                            volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis
+                                            imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.</p>
+                                    </div>
+                                </div>
+                                <img src="./images/screen-03.svg" alt="" loading="lazy" class="card-info__item-img"
+                                    width="600px" height="410px">
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="background-bottom">
+            <section class="section container">
+                <div class="section__body">
+                    <div class="pricing">
+                        <h2 class="pricing__title">
+                            Pricing Plans
+                        </h2>
+                        <div class="pricing__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet
+                                volutpat pellentesque volutpat est. </p>
+                        </div>
+                        <div class="pricing__menu">
+                            <ul class="pricing__menu-list">
+                                <li class="pricing__menu-item">
+                                    <article class="price-item">
+                                        <div class="price-item__text">
+                                            <h2 class="price-item__text-title">
+                                                Starter
+                                            </h2>
+                                            <div class="price-item__text-description">
+                                                <p>up to 3 users</p>
+                                            </div>
+                                        </div>
+                                        <span class="price-item__line"></span>
+                                        <div class="price-item__cost">
+                                            <h2 class="price-item__cost-title">
+                                                $<span class="price-item__number">29</span>
+                                            </h2>
+                                            <div class="price-item__cost-description">
+                                                <p>per month</p>
+                                            </div>
+                                        </div>
+                                        <button class="price-item__button button" type="button">
+                                            Order
+                                        </button>
+                                    </article>
+                                </li>
+                                <li class="pricing__menu-item">
+                                    <article class="price-item price-item--accent-bg">
+                                        <div class="price-item__text">
+                                            <h2 class="price-item__text-title price--color-reverse">
+                                                Standard
+                                            </h2>
+                                            <div class="price-item__text-description">
+                                                <p>up to 20 users</p>
+                                            </div>
+                                        </div>
+                                        <span class="price-item__line"></span>
+                                        <div class="price-item__cost">
+                                            <h2 class="price-item__cost-title price--color-reverse">
+                                                $<span class="price-item__number">99</span>
+                                            </h2>
+                                            <div class="price-item__cost-description">
+                                                <p>per month</p>
+                                            </div>
+                                        </div>
+                                        <button class="price-item__button button button-order-reverse" type="button">
+                                            Order
+                                        </button>
+                                    </article>
+                                </li>
+                                <li class="pricing__menu-item">
+                                    <article class="price-item">
+                                        <div class="price-item__text">
+                                            <h2 class="price-item__text-title">
+                                                Premium
+                                            </h2>
+                                            <div class="price-item__text-description">
+                                                <p>up to 200 users</p>
+                                            </div>
+                                        </div>
+                                        <span class="price-item__line"></span>
+                                        <div class="price-item__cost">
+                                            <h2 class="price-item__cost-title">
+                                                $<span class="price-item__number">299</span>
+                                            </h2>
+                                            <div class="price-item__cost-description">
+                                                <p>per month</p>
+                                            </div>
+                                        </div>
+                                        <button class="price-item__button button" type="button">
+                                            Order
+                                        </button>
+                                    </article>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__inner container">
+                    <span class="footer__line"></span>
+                    <div class="footer__links">
+                        <a class="footer__logo" href="#">
+                            <img src="./images/logo_footer.svg" alt="" class="footer__logo-img" loading="lazy" width="138px" height="30px">
+                        </a>
+                        <nav class="footer__menu hidden-mobile">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">Product</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">Pricing Plans</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">FAQ</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-link">Blog</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="footer__social">
+                            <a class="footer__social-network" href="https://www.facebook.com/?locale=ru_RU">
+                                <img src="./images/Facebook.svg" alt="" class="footer__social-facebooK" loading="lazy"
+                                    width="10px" height="20px">
+                            </a>
+                            <a class="footer__social-network" href="https://twitter.com/?lang=ru"><img
+                                    src="./images/Twitter.svg" alt="" class="footer__social-twitter" loading="lazy"
+                                    width="24px" height="20px">
+                            </a>
+                            <a class="footer__social-network" href="https://www.instagram.com/"><img
+                                    src="./images/Instagram.svg" alt="" class="footer__social-instagram" loading="lazy"
+                                    width="20px" height="20px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <dialog class="mobile-overlay visible-mobile background-container" id="mobileOverlay">
+            <form class="mobile-overlay__close-button-wrapper" method="dialog">
+                <button class="mobile-overlay__close-button cross-button" type="submit">
+                    <span class="visually-hidden">close navigation menu</span>
+                </button>
+            </form>
+            <div class="mobile-overlay__body">
+                <ul class="mobile-overlay__list">
+                    <li class="mobile-overlay__item">
+                        <a href="" class="mobile-menu__link">Products</a>
+                    </li>
+                    <li class="mobile-overlay__item">
+                        <a href="" class="mobile-menu__link">Pricing</a>
+                    </li>
+                    <li class="mobile-overlay__item">
+                        <a href="" class="mobile-menu__link">FAQ</a>
+                    </li>
+                    <li class="mobile-overlay__item">
+                        <a href="" class="mobile-menu__link">Blog</a>
+                    </li>
+                    <li class="mobile-overlay__item">
+                        <a href="" class="mobile-menu__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </dialog>
+    </div>
+</body>
+
+</html>

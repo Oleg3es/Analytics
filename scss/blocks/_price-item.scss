@@ -1,0 +1,48 @@
+.price-item {
+    padding: 50px 60px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    border-radius: 30px;
+    background-color: rgba(15, 31, 75, 0.7);
+
+    @include desktop {
+        padding: 40px 50px 60px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+
+        &-title {
+            color: var(--color-white-bckg);
+            font-size: 30px;
+        }
+    }
+
+    &__line {
+        width: 100%;
+        background-color: #2A407C;
+        height: 1px;
+    }
+
+    &__cost {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            color: var(--color-white-bckg);
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+
+    &__number {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}

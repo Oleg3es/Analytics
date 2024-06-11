@@ -1,0 +1,35 @@
+.button{
+    @include flex-center(true);
+
+    height: 50px;
+    padding-inline: 80px;
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    border: var(--border);
+
+    @include hover {
+        background-color: var(--color-red);
+        color: var(--color-white-bckg);
+    }
+
+    &--transparent {
+        height: 40px;
+        padding-inline: 50px;
+
+        @include tablet {
+            padding-inline: 30px;
+        }
+    }
+
+    &-order-reverse {
+        background-color: var(--color-red);
+        color: var(--color-white-bckg);
+
+        @include hover {
+            background-color: var(--color-text-bckg);
+            color: var(--color-text-secondary)
+        }
+    }
+}

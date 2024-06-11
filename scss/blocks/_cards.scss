@@ -1,0 +1,19 @@
+.cards {
+    
+    &-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 120px;
+
+        @include tablet {
+            row-gap: 30px
+        }
+    }
+
+    &-item {
+        .card-info {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

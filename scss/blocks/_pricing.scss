@@ -1,0 +1,35 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    padding-top: 272px;
+
+    &__title {
+        line-height: 46.88px;
+        color: var(--color-white-bckg);
+
+        @include mobile {
+            align-self: start;
+        }
+    }
+
+    &__description {
+        margin-bottom: 50px;
+        max-width: 1060px;
+
+        @include mobile {
+            align-self: start;
+        }
+    }
+
+    &__menu-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 80px;
+
+        @include desktop {
+            column-gap: 20px;
+        }
+    }
+}
